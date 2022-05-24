@@ -90,18 +90,18 @@ export default function useUsersList() {
 
   const resolveUserRoleVariant = role => {
     if (role === 'subscriber') return 'primary'
-    if (role === 'author') return 'warning'
-    if (role === 'maintainer') return 'success'
-    if (role === 'editor') return 'info'
+    if (role === 'Paralegals') return 'warning'
+    if (role === 'Partner') return 'success'
+    if (role === 'Owner') return 'info'
     if (role === 'admin') return 'danger'
     return 'primary'
   }
 
   const resolveUserRoleIcon = role => {
     if (role === 'subscriber') return 'UserIcon'
-    if (role === 'author') return 'SettingsIcon'
-    if (role === 'maintainer') return 'DatabaseIcon'
-    if (role === 'editor') return 'Edit2Icon'
+    if (role === 'Paralegals') return 'SettingsIcon'
+    if (role === 'Partner') return 'DatabaseIcon'
+    if (role === 'Owner') return 'Edit2Icon'
     if (role === 'admin') return 'ServerIcon'
     return 'UserIcon'
   }

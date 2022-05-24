@@ -7,7 +7,7 @@ const axiosIns = axios.create({
   // You can add your headers here
   // ================================
   baseURL: 'http://127.0.0.1:8000/api',
-  // baseURL: 'https://backend.cloudrep.ai/api',
+  // baseURL: 'https://backend.MYFILE.ai/api',
 
   // timeout: 1000,
   // headers: {'X-Custom-Header': 'foobar'}

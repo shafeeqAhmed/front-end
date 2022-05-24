@@ -132,6 +132,9 @@ export default {
     ValidationObserver,
   },
   mixins: [toastAlert],
+  created() {
+    this.resendOtp()
+  },
   data() {
     return {
       code: '',

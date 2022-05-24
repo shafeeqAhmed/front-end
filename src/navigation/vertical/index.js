@@ -1,5 +1,10 @@
 export default [
+  {
+    title: 'Home',
+    route: '/',
+    icon: 'HomeIcon',
 
+  },
   {
     title: 'Requisitions',
     icon: 'HomeIcon',

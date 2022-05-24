@@ -3,12 +3,12 @@
     <b-row class="auth-inner m-0">
 
       <!-- Brand logo-->
-      <b-link class="brand-logo">
-        <vuexy-logo />
-        <h2 class="brand-text text-primary ml-1">
-          Vuexy
-        </h2>
-      </b-link>
+      <!-- <b-link class="brand-logo"> -->
+        <!-- <vuexy-logo /> -->
+        <!-- <h2 class="brand-text text-primary ml-1">
+          MYFILE
+        </h2> -->
+      <!-- </b-link> -->
       <!-- /Brand logo-->
 
       <!-- Left Text-->
@@ -41,7 +41,7 @@
             class="mb-1 font-weight-bold"
             title-tag="h2"
           >
-            Welcome to My Files! 👋
+            Welcome to MYFILE! 👋
           </b-card-title>
           <b-card-text class="mb-2">
             Please sign-in to your account and start the adventure
@@ -237,6 +237,7 @@ export default {
             password: this.password,
           })
             .then(response => {
+
               this.isDisabled = false
               const { data : { data } } = response
               const { userData,accessToken, refreshToken,isVerified2fa } = data
@@ -246,6 +247,7 @@ export default {
               localStorage.setItem('isVerified2fa', isVerified2fa)
               localStorage.setItem('rememberMe', JSON.stringify(this.status))
               this.$ability.update(userData.ability)
+
                 this.$router.push({name: 'home'})
             
             })
