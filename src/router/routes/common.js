@@ -2,7 +2,7 @@ export default [
     {
         path: '/',
         name: 'home',
-        component: () => import('@/views/Home.vue'),
+        component: () => import('@/views/pages/dashboard/analytics/Analytics.vue'),
         meta: {
             pageTitle: 'Home',
             breadcrumb: [

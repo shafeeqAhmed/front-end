@@ -48,9 +48,9 @@ export const updateRegisterStep = (step) => {
  * @param {String} userRole Role of user
  */
 export const getHomeRouteForLoggedInUser = userRole => {
-  if (userRole === 'admin') return { name: 'admin' }
-  if (userRole === 'client') return { name: 'client' }
-  if (userRole === 'publisher') return '/publisher'
+  if (userRole === 'admin') return { name: '/' }
+  if (userRole === 'client') return { name: '/' }
+  if (userRole === 'publisher') return '/'
   if (userRole === 'agent') return '/agent'
   return { name: 'auth-login' }
 }
