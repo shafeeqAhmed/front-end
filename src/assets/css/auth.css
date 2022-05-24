@@ -1,0 +1,593 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.left-text h1 {
+  font-size: 3.7144rem;
+  line-height: 68px;
+  color: #ffffff;
+}
+
+.rs-title {
+  font-size: 1.7143rem;
+  font-weight: 900;
+  color: #393939;
+}
+
+.title {
+  font-size: 1.7143rem;
+  font-weight: 900;
+  color: #393939;
+}
+
+.subtitle {
+  font-size: 1.2864rem;
+  line-height: 27px;
+  color: #393939;
+  font-weight: 500;
+}
+
+.input-group-merge .form-control:not(:first-child) {
+  padding-left: 1.3rem !important;
+}
+
+.input-group-prepend .input-group-text svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+input {
+  height: 3.429rem !important;
+  font-size: 1rem;
+  border-left: none !important;
+}
+
+input,
+.input-group-text {
+  background: #fff;
+  border-radius: 7px;
+}
+
+input[type="email"] {
+  border-left: none !important;
+}
+
+input[type="password"] {
+  font: small-caption;
+  font-size: 16px !important;
+  border-left: none !important;
+}
+
+.submit-btn {
+  height: 3.429rem;
+}
+
+.divider-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9a9797;
+}
+
+.auth-button {
+  border-radius: 7px;
+  height: 86px;
+  width: 260px;
+  color: #000000 !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.auth-button img {
+  height: 35px;
+  margin-right: 15px;
+}
+
+.google-btn img {
+  width: 35px;
+}
+
+.facebook-btn img {
+  width: 17px;
+}
+
+.google-btn {
+  background: #ffe3e3 !important;
+}
+
+.facebook-btn {
+  background: #d6e8ff !important;
+}
+
+.left-text {
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.top-img {
+  position: absolute;
+}
+
+.account {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #393939;
+}
+
+.signup-link {
+  font-weight: bold;
+}
+
+#img-1 {
+  position: absolute;
+  width: 9.2865rem;
+  height: 9.2865rem;
+  left: 8%;
+  top: 18%;
+}
+
+#img-2 {
+  position: absolute;
+  width: 11.4295rem;
+  height: 11.4295rem;
+  right: 10%;
+  top: 10%;
+  z-index: 99;
+}
+
+#img-3 {
+  position: absolute;
+  width: 4.6434rem;
+  height: 4.6434rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 7%;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+#img-4 {
+  position: absolute;
+  width: 7.8574rem;
+  height: 7.8574rem;
+  right: 8%;
+  bottom: 25%;
+}
+
+#img-5 {
+  position: absolute;
+  width: 11.4295rem;
+  height: 11.4295rem;
+  left: 35%;
+  bottom: 5%;
+}
+
+#img-6 {
+  position: absolute;
+  width: 3.4294rem;
+  height: 3.4294rem;
+  left: 5%;
+  bottom: 25%;
+  background: #5ffbf1;
+  border-radius: 7px;
+}
+
+.form-control,
+.input-group-text {
+  border: 1px solid #f7f7f9 !important;
+}
+
+.input-group.is-invalid .input-group-text {
+  border-color: #f7f7f9 !important;
+}
+
+.alert-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: aqua !important;
+}
+
+.company-logo {
+  max-width: 24.643rem;
+  width: 100%;
+}
+
+.signup-card {
+  border-radius: 8px;
+  position: relative;
+}
+
+.signup-card:hover {
+  background-color: #e4ddff !important;
+}
+
+.signup-card-selected {
+  background-color: #e4ddff !important;
+}
+
+.signup-card p {
+  line-height: 0.8rem;
+}
+
+.b-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.1434rem;
+}
+
+.client-img {
+  width: 5.1434rem;
+  height: 5.143rem;
+}
+
+.arrow-img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.link-title {
+  font-size: 1.143rem;
+  font-weight: 400;
+  color: #797C7F;
+}
+
+.active-link {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  color: #393939;
+}
+
+.avatar-link {
+  border-radius: 8px !important;
+  width: 2.8575rem;
+  height: 2.8575rem;
+}
+
+.avatar-link.border-dark {
+  border: 1px solid #797C7F !important;
+}
+
+.b-avatar-custom svg {
+  width: 1.1435rem;
+  height: 1.1435rem;
+}
+
+.verication-message {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2864rem;
+  line-height: 36px;
+  color: #262626;
+}
+
+.validate-avatar {
+  border-radius: 50% !important;
+  width: 3.5714rem;
+  height: 3.5714rem;
+}
+
+.validate-avatar .b-avatar-custom svg {
+  width: 2.5714rem;
+  height: 2.5714rem;
+}
+
+.link-expired-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #262626;
+}
+
+.verify {
+  width: 90% !important;
+  text-align: center;
+}
+
+.p-subtitle {
+  font-size: 1rem;
+}
+
+.two-form {
+  max-width: 35.714rem;
+  width: 100%;
+}
+
+.vue-country-select {
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.vue-country-select .dropdown-arrow {
+  margin-left: 3px;
+}
+
+.mt-100 {
+  margin-top: 10rem;
+}
+
+p .feather-arrow-left {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 3001px) {
+  html {
+    font-size: 20px;
+  }
+
+  #img-1 {
+    width: 12.2865rem;
+    height: 12.2865rem;
+  }
+
+  #img-2 {
+    width: 13.4295rem;
+    height: 13.4295rem;
+  }
+
+  #img-3 {
+    width: 6.6434rem;
+    height: 6.6434rem;
+  }
+
+  #img-4 {
+    width: 9.8574rem;
+    height: 9.8574rem;
+  }
+
+  #img-5 {
+    width: 13.4295rem;
+    height: 13.4295rem;
+  }
+
+  #img-6 {
+    width: 5.4294rem;
+    height: 5.4294rem;
+  }
+
+  p .feather-arrow-left {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .left-text h1 {
+    font-size: 4.7144rem;
+    line-height: 97px;
+  }
+
+  .title {
+    font-size: 3.7143rem;
+  }
+
+  .company-logo {
+    max-width: 30.643rem;
+  }
+
+  .subtitle {
+    font-size: 2.2864rem;
+  }
+
+  .input-group-prepend .input-group-text svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .form-control {
+    font-size: 2rem;
+    height: 4.429rem !important;
+  }
+
+  .custom-checkbox .custom-control-label::before {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .custom-checkbox .custom-control-label::after {
+    background-size: 40%;
+    background-position: 6px;
+    width: 60px;
+    height: 41px;
+  }
+
+  .custom-checkbox .custom-control-label {
+    margin-top: 4px;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  small {
+    font-size: 1.3rem;
+  }
+
+  html button,
+  html .btn {
+    font-size: 1.4rem !important;
+    height: 4.429rem !important;
+  }
+
+  .account {
+    font-size: 1.4rem;
+  }
+
+  p .feather-arrow-left {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 2401px) and (max-width: 3000px) {
+  html {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2400px) {
+  html {
+    font-size: 16px;
+  }
+
+  #img-1 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #img-2 {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  #img-3 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #img-4 {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  #img-5 {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  #img-6 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .left-text h1 {
+    font-size: 3.5rem;
+    line-height: 80px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .company-logo {
+    max-width: 29rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
+  .input-group-prepend .input-group-text svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .form-control {
+    font-size: 1.6rem;
+    height: 4rem !important;
+  }
+
+  .custom-checkbox .custom-control-label::before {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .custom-checkbox .custom-control-label::after {
+    background-size: 30%;
+    background-position: 6px;
+    width: 50px;
+    height: 25px;
+  }
+
+  .custom-checkbox .custom-control-label {
+    margin-top: 4px;
+    margin-left: 1.4rem;
+    font-size: 1.1rem;
+  }
+
+  small {
+    font-size: 1.1rem;
+  }
+
+  html button,
+  html .btn {
+    font-size: 1.1rem !important;
+    height: 4rem !important;
+  }
+
+  .account {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+
+  .list-group-item::after {
+    margin-left: 12px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .listing {
+    padding: 0 4rem;
+    max-width: 29.571rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .listing {
+    width: 45% !important;
+  }
+
+  .signup-card p {
+    line-height: 1.7rem;
+  }
+
+  .arrow-img {
+    right: 20px;
+    top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listing {
+    width: 100% !important;
+  }
+
+  .company-logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 567px) {
+
+  .signup-card p {
+    line-height: 1.7rem;
+  }
+}

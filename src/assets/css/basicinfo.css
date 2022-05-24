@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rs-title {
+  font-size: 52px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.subtitle {
+  font-size: 34px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.company-logo {
+  width: 317px;
+  height: 75px;
+}
+
+.signup-card {
+  border-radius: 8px;
+  position: relative;
+}
+
+.signup-card:hover {
+  background-color: #E4DDFF !important;
+}
+
+.signup-card p {
+  line-height: 0.8rem;
+}
+
+.b-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.client-img {
+  width: 72px;
+  height: 72px;
+}
+
+.arrow-img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.link-title {
+  font-size: 17px;
+  color: #393939 !important;
+}
+
+.active-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.avatar-link {
+  border-radius: 8px !important;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:992px) {
+  .listing {
+    width: 65% !important;
+  }
+}
+
+
+@media screen and (max-width:992px) {
+  .listing {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .listing {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .company-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-card p {
+    line-height: 1.7rem;
+  }
+}

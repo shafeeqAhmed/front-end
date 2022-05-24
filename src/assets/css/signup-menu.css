@@ -1,0 +1,26 @@
+.list-group-item {
+  border: none !important;
+  padding: 0.3rem .5rem !important;
+}
+
+.list-group-item:hover {
+  background: #fff !important;
+}
+
+.list-group-item::after {
+  content: "";
+  display: block;
+  border-left: 1px solid #797C7F;
+  height: 26px;
+  margin-left: 1.429rem;
+  margin-top: 10px;
+}
+
+.list-group-item:last-child::after {
+  content: "";
+  display: block;
+  border-left: none;
+  height: 26px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
