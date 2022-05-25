@@ -2,7 +2,7 @@ export default [
     {
         path: '',
         name: 'home',
-        component: () => import('@/views/pages/dashboard/analytics/Analytics.vue'),
+        component: () => import('@/views/pages/dashboard/ecommerce/Ecommerce.vue'),
         meta: {
             pageTitle: 'Home',
             breadcrumb: [
