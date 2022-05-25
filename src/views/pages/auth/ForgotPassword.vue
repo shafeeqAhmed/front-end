@@ -2,14 +2,6 @@
   <div class="auth-wrapper auth-v2">
     <b-row class="auth-inner m-0">
 
-      <!-- Brand logo-->
-      <b-link class="brand-logo">
-        <vuexy-logo />
-
-        <h2 class="brand-text text-primary ml-1">
-          Vuexy
-        </h2>
-      </b-link>
       <!-- /Brand logo-->
 
       <!-- Left Text-->
